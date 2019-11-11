@@ -6,7 +6,7 @@ services:
     image: mattrayner/lamp:latest-1804
     container_name: lamp_server
     ports:
-      - "80:80"
+      - "89:80"
       - "3306:3306"
       - "443:443"
     volumes:

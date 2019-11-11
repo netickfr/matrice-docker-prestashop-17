@@ -1,4 +1,3 @@
-mkdir app
 export COMPOSE_INTERACTIVE_NO_CLI=1
 docker-compose down
 docker-compose up -d
