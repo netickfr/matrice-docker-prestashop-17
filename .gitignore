@@ -1,5 +1,6 @@
 /README.md
 /bitbucket-pipelines.yml
+/app/*
 /old/*
 /app/var/log/
 /app/var/cache/dev/*
