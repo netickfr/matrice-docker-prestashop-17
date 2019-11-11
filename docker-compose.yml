@@ -4,7 +4,7 @@ services:
 
   lamp_server:
     image: mattrayner/lamp:latest-1804
-    container_name: lamp_daylily
+    container_name: lamp_server
     ports:
       - "80:80"
       - "3306:3306"
