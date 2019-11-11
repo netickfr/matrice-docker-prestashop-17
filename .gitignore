@@ -1,0 +1,13 @@
+app/
+/README.md
+/bitbucket-pipelines.yml
+/old/*
+/app/var/log/
+/app/var/cache/dev/*
+/app/var/cache/prod/*
+!/app/var/cache/prod/ContainerAtdrxx3/*
+/app/img/tmp/*
+*.zip
+/mysql/*
+*.sql
+*.tar.gz

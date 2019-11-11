@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  lamp_server:
+    image: mattrayner/lamp:latest-1804
+    container_name: lamp_daylily
+    ports:
+      - "80:80"
+      - "3306:3306"
+      - "443:443"
+    volumes:
+      - "./mysql:/var/lib/mysql"
+      - "./app:/app"
+      - "./custom.ini:/etc/php7.3/apache2/conf.d/custom.ini"
